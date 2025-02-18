@@ -2,7 +2,7 @@ group 'io.eddayy.flutter_star_prnt'
 version '1.0-SNAPSHOT'
 
 buildscript {
-    ext.kotlin_version = '1.7.21'
+    ext.kotlin_version = '1.8.22'
     repositories {
         google()
         jcenter()
@@ -25,7 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 34
+    namespace 'io.eddayy.flutter_star_prnt'
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
