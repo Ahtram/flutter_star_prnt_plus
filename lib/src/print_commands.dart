@@ -164,6 +164,62 @@ class PrintCommands {
     this._commands.add(command);
   }
 
+  //Add by Neo
+  appendEmphasis(bool value) {
+    Map<String, dynamic> command = {
+      "appendEmphasis": value.toString(),
+    };
+    this._commands.add(command);
+  }
+
+  //Add by Neo
+  enableEmphasis(bool value) {
+    Map<String, dynamic> command = {
+      "enableEmphasis": value,
+    };
+    this._commands.add(command);
+  }
+
+  //Add by Neo
+  appendInvert(bool value) {
+    Map<String, dynamic> command = {
+      "appendInvert": value.toString(),
+    };
+    this._commands.add(command);
+  }
+
+  //Add by Neo
+  enableInvert(bool value) {
+    Map<String, dynamic> command = {
+      "enableInvert": value,
+    };
+    this._commands.add(command);
+  }
+
+  //Add by Neo
+  appendUnderline(bool value) {
+    Map<String, dynamic> command = {
+      "appendUnderline": value.toString(),
+    };
+    this._commands.add(command);
+  }
+
+  //Add by Neo
+  enableUnderline(bool value) {
+    Map<String, dynamic> command = {
+      "enableUnderline": value,
+    };
+    this._commands.add(command);
+  }
+
+  //Add by Neo
+  appendLineFeed(int value) {
+    Map<String, dynamic> command = {
+      "appendLineFeed": value,
+    };
+    this._commands.add(command);
+  }
+
   /// pushes a manual [command] into the command list
   push(Map<String, dynamic> command) {
     this._commands.add(command);
