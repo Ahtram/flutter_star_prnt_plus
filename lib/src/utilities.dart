@@ -19,12 +19,12 @@ final List<StarMicronicsModel> starMicronicsModels = [
   StarMicronicsModel(
     name: 'mC-Print2',
     emulation: 'StarPRNT',
-    models: ['MCP20 (STR-001)', 'MCP21 (STR-001)', 'MCP21'],
+    models: ['MCP20 (STR-001)', 'MCP21 (STR-001)', 'MCP21', 'mC-Print2'],
   ),
   StarMicronicsModel(
     name: 'mC-Print3',
     emulation: 'StarPRNT',
-    models: ['MCP30 (STR-001)', 'MCP31'],
+    models: ['MCP30 (STR-001)', 'MCP31', 'mC-Print3'],
   ),
   StarMicronicsModel(
     name: 'mPOP',
