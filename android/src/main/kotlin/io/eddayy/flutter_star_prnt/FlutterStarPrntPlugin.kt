@@ -38,12 +38,6 @@ public class FlutterStarPrntPlugin : FlutterPlugin, MethodCallHandler {
     protected lateinit var applicationContext: Context
 
     @JvmStatic
-    fun registerWith(registrar: Registrar) {
-      val channel = MethodChannel(registrar.messenger(), "flutter_star_prnt")
-      channel.setMethodCallHandler(FlutterStarPrntPlugin())
-      FlutterStarPrntPlugin.setupPlugin(registrar.messenger(), registrar.context())
-    }
-    @JvmStatic
     fun setupPlugin(messenger: BinaryMessenger, context: Context) {
       try {
         applicationContext = context.getApplicationContext()
